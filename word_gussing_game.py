@@ -16,7 +16,7 @@ class SamitWordGame:
             "galaxy": "A massive system of stars, gas, and dust",
             "logic": "The science of reasoning and logic",
             "apple": "A fruit that originates in Kashmir",
-            "mutton": "A dish Samit likes very much",
+            
             
         }
 
@@ -116,4 +116,5 @@ class SamitWordGame:
 if __name__ == "__main__":
     root = tk.Tk()
     game = SamitWordGame(root)
+
     root.mainloop()
